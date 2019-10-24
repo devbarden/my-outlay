@@ -1,15 +1,14 @@
 <template>
-  <div id="app">
-    <Header />
-    <router-link to="/">home</router-link>
-    <router-link to="/about">about</router-link>
-    <router-view name="main"/>
-    <Footer />
+  <div id="app" class="app">
+    <MainNav class="nav" />
+    <Header class="header" />
+    <router-view class="main" name="main"/>
   </div>
 </template>
 
 <script src="./script.js"></script>
 
-<style lang="scss" rel="stylesheet/scss" scoped>
+<style lang="scss" rel="stylesheet/scss">
+@import "../style/index.scss";
 @import "./style.scss";
 </style>

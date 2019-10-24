@@ -1,10 +1,10 @@
 import Header from '../containers/Header'
-import Footer from '../containers/Footer'
+import MainNav from '../containers/MainNav'
 
 export default {
   name: 'app',
   components: {
     Header,
-    Footer,
+    MainNav,
   },
 }

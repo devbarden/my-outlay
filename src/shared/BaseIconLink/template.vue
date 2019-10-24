@@ -1,6 +1,6 @@
 <template>
-  <div>
-  </div>
+  <router-link :to="link">
+  </router-link>
 </template>
 
 <script src="./script.js"></script>
